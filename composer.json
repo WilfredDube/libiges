@@ -1,0 +1,24 @@
+{
+    "name": "wilfreddube/libiges",
+    "description": "Library for parsing and extraction of CAD model file of iges extension.",
+    "keywords": ["iges", "cad model", "iges parser"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wilfred Dube",
+            "email": "wilfreddube@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "Iges\\": "src/"
+        }
+    }
+}
